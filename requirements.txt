@@ -1,11 +1,11 @@
 Webpack (imports/exports)
- Babel
- Scss
+ Babel +
+ Scss +
  Eslint
  2 Modes
-   - Dev
-     Dev Server, SourceMaps, Eslint, Not minified JS&CSS
-   - Prod
-     Minified JS&CSS
- Typescript
+   - Dev +
+     Dev Server, SourceMaps, Eslint, Not minified JS&CSS +
+   - Prod +
+     Minified JS&CSS +
+ Typescript +
 Git
