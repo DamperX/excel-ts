@@ -1,0 +1,26 @@
+@mixin excel-button($color) {
+  position: relative;
+  display: inline-block;
+  min-width: 24px;
+  height: 24px;
+  padding: 3px;
+  text-align: center;
+  color: rgba(0, 0, 0, .7);
+  transition: color .1s ease-in, background-color .1s ease-in;
+
+  &:hover {
+    color: $color;
+    cursor: pointer;
+    background-color: #f1f3f4;
+  }
+
+  .material-icons {
+    font-size: 18px;
+  }
+}
+
+@mixin clear-list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
